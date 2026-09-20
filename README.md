@@ -2,11 +2,11 @@
 
 ## 📖 Introduction
 
-A shell provides an interface for interacting with an operating system through commands. In cybersecurity, unauthorized shell access can allow an attacker to interact with a compromised system remotely.
+A shell is a command-line interface that allows users to communicate with an operating system by entering commands. In cybersecurity, if an attacker gains unauthorized shell access, they can remotely control and interact with a target system.
 
-This project focuses on understanding two common shell communication concepts: **Reverse Shell** and **Bind Shell**. The practical demonstrations were performed in an isolated lab environment using **Kali Linux** and **Metasploitable 2**.
+This project explains the concepts of Reverse Shell and Bind Shell through practical experiments carried out in a safe and isolated lab environment using Kali Linux and Metasploitable 2.
 
-The project also includes basic network connectivity testing, TCP communication using Netcat, shell verification, and network traffic analysis using Wireshark. The main goal is to understand how these connections work from both an offensive and defensive perspective and how suspicious shell activity can be detected and mitigated.
+The project also covers basic network connectivity testing, TCP communication using Netcat, verification of shell connections, and network traffic monitoring with Wireshark. The objective is to understand how reverse and bind shells establish communication, recognize their behavior on a network, and learn methods to detect and prevent suspicious shell activity from a security perspective..
 
 ## 🧪 Lab Environment
 
@@ -30,9 +30,11 @@ Both virtual machines were connected to the same isolated lab network, allowing 
 
 # 📌 Overview
 
-This project demonstrates the concepts of Reverse Shell and Bind Shell in an isolated cybersecurity lab environment using Kali Linux and Metasploitable 2.
-The objective is to understand how shell connections can be established between two systems, how network connections appear during the process, and how defenders can identify suspicious shell activity through network and traffic analysis.
-The project also covers basic detection indicators, security risks, and mitigation techniques associated with unauthorized shell connections.
+This project explains the working of Reverse Shell and Bind Shell in a secure cybersecurity lab using Kali Linux and Metasploitable 2.
+
+The main aim is to learn how shell connections are created between two systems, observe the network communication involved, and understand how such activities can be detected through network traffic analysis.
+
+The project also discusses common signs of unauthorized shell connections, the security threats they pose, and basic methods to detect and prevent them.
 
 
 # 🔗 Bind Shell
@@ -97,9 +99,11 @@ Then go your kali pc and type (whoami)
 
 ## 🏁 Conclusion
 
-This project provided hands-on experience with **Reverse Shell** and **Bind Shell** concepts in a controlled cybersecurity lab environment.
-During the lab, I established TCP connections between **Kali Linux and Metasploitable 2** and verified remote shell communication using Netcat.
-The project helped me understand the difference between Reverse Shell and Bind Shell, the role of listening ports, TCP communication, and how remote shell connections work.
-Overall, this lab strengthened my practical knowledge of **Linux networking, TCP communication, Netcat, and remote shell concepts**.
+This project gave me practical knowledge of Reverse Shell and Bind Shell in a safe cybersecurity lab environment.
 
+I created TCP connections between Kali Linux and Metasploitable 2 and used Netcat to establish and verify remote shell communication.
+
+Through this lab, I learned the difference between reverse and bind shells, how listening ports and TCP connections work, and how remote shell access is established between systems.
+
+Overall, the project improved my understanding of Linux networking, TCP communication, Netcat, and basic remote shell operations.
 
